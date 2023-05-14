@@ -1,26 +1,43 @@
-console.log("Hello World")
+"Ex One" 
 
 var firstName = "Ngozi"
 let surname = "Ojukwu"
 let age = "20"
 const subject = "Development"
 
-let message = "Hello " + firstName + " " + surname + " ,You are " + age + "  years old, and your subject is " + subject + "."
+let message = "Hello " + firstName + " " + surname + " I  am " + age + "  years old, and I am studying " + subject + "."
 
 console.log(message)
 
-let tim = 13;
-let jane = 23;
-let john = 10;
+"Ex Two" 
 
-tim = tim + 10;
+let numOne = 2;
+let numTwo = 2;
+let numThree = 10;
+let numFour = 10;
+let answer = 0;
 
-let teamTotal = tim + jane;
-let victory = john / 2;
-let total = teamTotal + victory;
-
-
-
-let answer = "Tim and Jane now have " + total + " marbles!"
+answer = numOne + numTwo / numThree * numFour
 
 console.log(answer)
+
+"Ex Three"
+
+let timmy = 10;
+let susan = 25;
+let timmyDebt = 0.15
+let susanDebt = 0.26
+let taxMan = 0
+
+let timmyTax = timmyDebt * timmy
+let susanTax = susanDebt * susan
+
+taxMan = timmyTax + susanTax
+
+console.log(taxMan)
+
+
+"Ex F"
+
+
+
