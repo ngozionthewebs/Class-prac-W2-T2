@@ -37,7 +37,29 @@ taxMan = timmyTax + susanTax
 console.log(taxMan)
 
 
-"Ex F"
+"Ex Four"
+
+let john = 40 ;
+let tim = 65 ;
+let alfie = 70 ;
+let gwen = 90 ;
+let testAve = 0;
+
+
+john = john +7
+tim = tim + 7
+alfie = alfie + 7
+gwen = gwen + 7
+
+let testTotals = john + tim + alfie + gwen
+testAve = testTotals/4
+
+
+console.log("The students average is " + testAve)
+
+
+
+
 
 
 
